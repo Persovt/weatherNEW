@@ -4,12 +4,11 @@ import {
 
 } from './weatherSlice';
 import styles from './Weather.module.css';
-
-export function Counter() {
-
+import {Card} from '../card/Card'
+export function Weather() {
   return (
     <div>
-    
+    <Card/>
     </div>
   );
 }
